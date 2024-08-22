@@ -1,13 +1,13 @@
-package com.sac.multiple_datasources;
+package com.sac.multiple_datasource;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MultipleDatasourcesApplication {
+public class MultipleDatasourceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MultipleDatasourcesApplication.class, args);
+		SpringApplication.run(MultipleDatasourceApplication.class, args);
 	}
 
 }

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sac</groupId>
-	<artifactId>multiple-datasources</artifactId>
+	<artifactId>multiple-datasource</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>multiple-datasources</name>
+	<name>multiple-datasource</name>
 	<description>Spring Boot with Multiple Datasources</description>
 	<url/>
 	<licenses>

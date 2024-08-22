@@ -1,10 +1,10 @@
-package com.sac.multiple_datasources;
+package com.sac.multiple_datasource;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MultipleDatasourcesApplicationTests {
+class MultipleDatasourceApplicationTests {
 
 	@Test
 	void contextLoads() {
