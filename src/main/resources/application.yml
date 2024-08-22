@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: multiple-datasource
+  datasource:
+    primary:
+      jdbc-url: jdbc:mysql://localhost:3306/test_db_a
+      username: root
+      password: admin
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    secondary:
+      jdbc-url: jdbc:mysql://localhost:3306/test_db_b
+      username: root
+      password: admin
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
