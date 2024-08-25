@@ -3,14 +3,14 @@ spring:
     name: multiple-datasource
   datasource:
     primary:
-      jdbc-url: jdbc:mysql://localhost:3306/test_db_a
-      username: root
-      password: admin
+      jdbc-url: jdbc:mysql://localhost:3306/database1
+      username: your_username_db1
+      password: your_password_db1
       driver-class-name: com.mysql.cj.jdbc.Driver
     secondary:
-      jdbc-url: jdbc:mysql://localhost:3306/test_db_b
-      username: root
-      password: admin
+      jdbc-url: jdbc:mysql://localhost:3306/database2
+      username: your_username_db2
+      password: your_password_db2
       driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
